@@ -70,9 +70,9 @@ $(function(){
   var filename = function(file,i) {
     var filename = "";
     if (i<10) {
-      filename = "book/"+file+"-0"+i+".png";
+      filename = ""+file+"-0"+i+".png";
     } else {
-      filename = "book/"+file+"-"+i+".png";
+      filename = ""+file+"-"+i+".png";
     }
     return filename;
   };
