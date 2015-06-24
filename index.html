@@ -1,1 +1,109 @@
-My GitHub Page
+
+<!DOCTYPE html>
+
+<html lang="en" manifest="cache.manifest">
+
+<head>
+  <title>BOOK READER</title>
+  <meta property="og:title" content="BOOK READER">
+  <meta property="og:description" content="javascriptで本を読む">
+  <!--meta property="og:url" content="ページのURL"-->
+  <meta property="og:image" content="icon.png">
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <meta name="apple-mobile-web-app-title" content="BOOK READER">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <link rel="apple-touch-startup-image" href="self.png">
+
+  <meta name="viewport" content="width=device-width, maximum-scale=1,user-scalable=0" />
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <link rel="stylesheet" href="ratchet/css/ratchet.min.css">
+  <link rel="stylesheet" href="ratchet/css/ratchet-theme-ios.min.css">
+
+</head>
+
+<body>
+
+  <div id="mes-pc" class="tac">
+    <img class="logo" src="logo.png">
+    <div>iPhoneから<br>アクセスしよう</div>
+  </div>
+
+  <div id="mes-add">
+    <div class="arrow">↓</div>
+    <div class="tac">
+      <img class="logo" src="home.png">
+      <div><img src="box.png">からホーム画面に追加を選ぼう</div>
+    </div>
+  </div>
+
+  <div id="self">
+    <header class="bar bar-nav">
+      <h1 class="title">BOOK READER</h1>
+    </header>
+
+    <div class="content">
+
+      <h5 class="content-padded">青空文庫</h5>
+
+      <ul class="table-view">
+
+        <li class="table-view-cell media">
+          <a class="navigate-right" id="kumono">
+            <span class="media-object icon pull-left"></span>
+            <div class="media-body">
+              蜘蛛の糸
+            </div>
+          </a>
+        </li>
+
+      </ul>
+
+      <h5 class="content-padded">R-18</h5>
+
+      <ul class="table-view">
+
+        <li class="table-view-cell media">
+          <a class="navigate-right" id="play">
+            <span class="media-object icon pull-left"></span>
+            <div class="media-body">
+              PlayBoy
+            </div>
+          </a>
+        </li>
+
+      </ul>
+    </div>
+
+    <div class="download-dialog">
+      ダウンロード
+      <div class="meter">
+        <span style="width: 0%" class="meter-progress"></span>
+      </div>
+    </div>
+
+  </div>
+
+
+  <div id="reader-close">
+    ◁ back
+  </div>
+
+  <div id="reader">
+
+    <img id="reader-img" />
+  </div>
+
+  <script type="text/javascript" src="ratchet/js/ratchet.min.js"></script>
+  <script type="text/javascript" src="jquery-2.1.4.min.js"></script>
+  <script type="text/javascript" src="main.js"></script>
+
+</body>
+
+<template id="hello">
+  <p> {{i}} times.</p>
+</template>
+
+</html>
