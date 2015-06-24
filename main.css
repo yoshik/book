@@ -46,8 +46,8 @@ body{
 
 #reader-img{
   background-color: #fff;
-  width: 100%;
-  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .logo {
@@ -62,6 +62,7 @@ body{
 
 .meter {
   height: 20px;  /* Can be anything */
+  margin-top: 10px;
   position: relative;
 }
 
