@@ -70,9 +70,9 @@ $(function(){
   var filename = function(file,i) {
     var filename = "";
     if (i<10) {
-      filename = "https://yoshik.github.io/book/"+file+"-0"+i+".png";
+      filename = ""+file+"-0"+i+".png";
     } else {
-      filename = "https://yoshik.github.io/book/"+file+"-"+i+".png";
+      filename = ""+file+"-"+i+".png";
     }
     return filename;
   };
