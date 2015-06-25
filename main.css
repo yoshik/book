@@ -15,8 +15,8 @@ body{
 
 .download-dialog {
   top: 200px;
-  left: 10px;
-  width: 280px;
+  left: 10%;
+  width: 80%;
   height: 80px;
   background-color: rgba(255,255,255,0.8);
   padding: 10px;
